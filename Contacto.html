@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="" href="icon/Captura.PNG">
+    <link rel="stylesheet" href="style.css">
+   <!--Librería iconos web https://ionic.io--> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">David Alda</a>
+        <ul class="navbar">
+            <li>
+                <a href="Conóceme.html">Conóceme</a>
+            </li>
+            <li>
+                <a href="cv.html">CV</a>
+            </li>
+            <li>
+                <a href="Proyectos.html">Proyectos</a>
+            </li>
+            <li>
+                <a href="Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <h1>Contacta conmigo</h1>
+        <div>
+            <br>
+            <br>
+        </div>
+        <div class="contWho">
+        <div class="profile">
+
+            <h2>Completa el formulario</h2>
+            <br>
+            <form name="formContacto" action="mailto:daviddam@gmail.com" method="post">
+                <fieldset class="fieldset">
+                    <legend class="legend">Datos Personales:</legend>
+                    Apellidos: <input type="text" name="apellidos" id="" placeholder="Indica tus Apellidos">
+                    Nombre: <input type="text" name="nombre" id="" placeholder="Indica tu nombre"> <br>
+                    Mail: <input type="email" name="" id="" placeholder="Introduce tu email"> 
+                    Teléfono: <input type="tel" name="" id="" placeholder="Introduce tu telf">
+                    <br>
+                    <br>
+                    Sexo:
+                    <input type="radio" name="sexo" value="hombre" required> Hombre
+                    <input type="radio" name="sexo" value="mujer" required> Mujer
+                    <br>
+                </fieldset>
+                <br>
+                <fieldset class="fieldset">
+                    <legend class="legend">Por favor, acepta la política de protección de datos:</legend> 
+                    <input type="radio" name="Terminos" value="Acepto" required> Acepto
+                    <br><input type="radio" name="Terminos" value="No acepto" required> No acepto
+                </fieldset>
+                <br>
+            </form>
+                <input type="submit" value="Enviar" class="input">
+                <input type="reset" value="Borrar" class="input">
+        </div>
+        </div>
+    <div class="copyrightWho">
+        <p>&copy; Web Personal para Lenguaje de Marcas <br> CFGS DAM UNIR </p>
+    </div>
+    <ul class="redesSociales">
+        <li>
+            <a href="mailto:davidam@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/david-alda-andres/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+            <a href="https://github.com/aldazgz" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        </li>
+    </ul>
+</body>
+</html>
